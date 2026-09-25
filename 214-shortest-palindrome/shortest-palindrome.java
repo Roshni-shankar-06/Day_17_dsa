@@ -12,11 +12,4 @@ class Solution {
             int j = lps[i - 1];
             while (j > 0 && temp.charAt(i) != temp.charAt(j)) {
                 j = lps[j - 1];
-            }
-            if (temp.charAt(i) == temp.charAt(j)) {
-                j++;
-            }
-            lps[i] = j;
-        }
-        
-   
+           
