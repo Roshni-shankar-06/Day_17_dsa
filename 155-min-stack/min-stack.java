@@ -21,8 +21,4 @@ class MinStack {
     
     /** Push element val onto the stack. */
     public void push(int val) {
-        if (stack.isEmpty()) {
-            // If the stack is empty, the current value is the absolute minimum
-            stack.push(new Node(val, val));
-        } else {
-          
+       
