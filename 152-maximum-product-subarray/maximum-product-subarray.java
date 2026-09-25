@@ -17,13 +17,4 @@ class Solution {
             int tempMax = maxProd;
 
             // Calculate the 3 possible choices for the new max and min
-            maxProd = Math.max(current, Math.max(tempMax * current, minProd * current));
-            minProd = Math.min(current, Math.min(tempMax * current, minProd * current));
-
-            // Update the global maximum product found so far
-            ans = Math.max(ans, maxProd);
-        }
-
-        return ans;
-    }
-}
+            
