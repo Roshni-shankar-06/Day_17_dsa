@@ -36,12 +36,4 @@ class MinStack {
         if (!stack.isEmpty()) {
             stack.pop();
         }
-    }
-    
-    /** Get the top element of the stack. */
-    public int top() {
-        return stack.peek().val;
-    }
-    
-    /** Retrieve the minimum element in the stack. */
  
