@@ -19,8 +19,4 @@ class Solution {
             lps[i] = j;
         }
         
-        int longestPrefixLen = lps[temp.length() - 1];
-        String rem = s.substring(longestPrefixLen);
-        return new StringBuilder(rem).reverse().toString() + s;
-    }
-}
+   
