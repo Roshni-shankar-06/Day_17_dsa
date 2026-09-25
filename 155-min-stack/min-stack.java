@@ -6,7 +6,5 @@ class MinStack {
         int val;
         int min;
 
-        Node(int val, int min) {
-            this.val = val;
-            this.min = min;
+    
      
