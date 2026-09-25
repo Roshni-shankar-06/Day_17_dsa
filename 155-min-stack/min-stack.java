@@ -30,10 +30,4 @@ class MinStack {
             stack.push(new Node(val, currentMin));
         }
     }
-    
-    /** Removes the element on top of the stack. */
-    public void pop() {
-        if (!stack.isEmpty()) {
-            stack.pop();
-        }
  
