@@ -25,9 +25,4 @@ class MinStack {
             // If the stack is empty, the current value is the absolute minimum
             stack.push(new Node(val, val));
         } else {
-            // Otherwise, find the minimum between the new value and the current top's minimum
-            int currentMin = Math.min(val, stack.peek().min);
-            stack.push(new Node(val, currentMin));
-        }
-    }
- 
+          
