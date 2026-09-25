@@ -9,7 +9,4 @@ class Solution {
         int[] lps = new int[temp.length()];
         
         for (int i = 1; i < temp.length(); i++) {
-            int j = lps[i - 1];
-            while (j > 0 && temp.charAt(i) != temp.charAt(j)) {
-                j = lps[j - 1];
            
