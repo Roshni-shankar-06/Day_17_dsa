@@ -15,10 +15,4 @@ class MinStack {
     private Stack<Node> stack;
 
     /** Initialize your data structure here. */
-    public MinStack() {
-        stack = new Stack<>();
-    }
-    
-    /** Push element val onto the stack. */
-    public void push(int val) {
-       
+   
