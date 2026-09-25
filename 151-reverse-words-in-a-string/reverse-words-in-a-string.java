@@ -5,8 +5,4 @@ class Solution {
         StringBuilder result = new StringBuilder();
         
         // Iterate backwards through the array of words
-        for (int i = words.length - 1; i >= 0; i--) {
-            result.append(words[i]);
-            if (i > 0) {
-                result.append(" ");
-         
+      
