@@ -9,10 +9,4 @@ class MinStack {
         Node(int val, int min) {
             this.val = val;
             this.min = min;
-        }
-    }
-
-    private Stack<Node> stack;
-
-    /** Initialize your data structure here. */
-   
+     
